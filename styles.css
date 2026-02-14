@@ -1,0 +1,57 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*************** Body *********************/
+body {
+  font-family: "Open Sans", Arial, sans-serif; /* Font 1 */
+  background-color: #ffe6f0; /* Lys lyserød baggrund */
+  color: #4a0033; /* Mørk lyserød tekst */
+  line-height: 1.6;
+}
+
+/*************** Overskrifter *********************/
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", Verdana, sans-serif; /* Font 2 */
+  color: #cc2c7a; /* Kraftigere lyserød */
+  margin-bottom: 0.5rem;
+}
+
+/*************** Header & Footer *********************/
+header,
+footer {
+  background-color: #ffd1e6; /* Anden nuance af lyserød */
+  padding: 16px;
+}
+
+/*************** Main *********************/
+main {
+  padding: 16px;
+}
+
+/*************** Sections *********************/
+section {
+  background-color: #ffffff;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+/*************** Tekst *********************/
+p {
+  margin-bottom: 1rem;
+}
+
+/*************** Billeder *********************/
+img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 16px;
+}
